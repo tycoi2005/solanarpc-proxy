@@ -1,0 +1,15 @@
+{
+  "name": "solrpc-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
